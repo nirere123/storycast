@@ -43,7 +43,8 @@ Media note: The current prototype does not include a recorded video or real inte
 The checked items describe features intended to be implemented in the project. Verify each item against the actual code before relying on it as a completed test.
 Design Rationale
 The cream background, dark green typography, and lime accents create a warm editorial style. Large headings and story imagery help visitors scan the content. The story page emphasizes readable written content and a transcript so that understanding the example does not depend on audio or video.
-Project Structure
+# Project Structure
+
 dream-in-progress/
 ├── index.html
 ├── about.html
