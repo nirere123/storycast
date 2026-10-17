@@ -45,6 +45,8 @@ Design Rationale
 The cream background, dark green typography, and lime accents create a warm editorial style. Large headings and story imagery help visitors scan the content. The story page emphasizes readable written content and a transcript so that understanding the example does not depend on audio or video.
 # Project Structure
 
+
+```text
 dream-in-progress/
 ├── index.html
 ├── about.html
@@ -61,6 +63,7 @@ dream-in-progress/
 │   ├── research-document.pdf
 │   └── sitemap.md
 └── README.md
+```
 
 # figma link
 https://www.figma.com/design/nE6KJ6mURLlW4a2NmgE9bu/storycast--website--mockups?node-id=0-1&p=f&t=F8ilEXS0KWLgQPJ7-0
