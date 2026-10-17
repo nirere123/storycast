@@ -64,5 +64,5 @@ dream-in-progress/
 ## Design rationale
 The cream background, dark green typography, and lime accents create a warm, editorial identity. Large headings and story photography help visitors scan the content. The story detail page prioritizes readable text and a transcript rather than relying on media alone.
 
-## Before submission
-Update the project with your own Figma links, final research, real or clearly labelled sample content, and test results. Confirm that the GitHub repository is public and named `storycast` if that is the exact name required by your course.
+## figma link
+https://www.figma.com/design/nE6KJ6mURLlW4a2NmgE9bu/storycast--website--mockups?node-id=0-1&t=0y185Mazak3hFVGW-1
