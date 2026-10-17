@@ -1,48 +1,49 @@
-# Dream in Progress — Young Entrepreneur Stories
+StoryCast — Dream in Progress
 
-A three-page accessible storytelling microsite prototype for the Advanced Front-end Web Development assignment. The concept shares early-stage journeys of young entrepreneurs through editorial story cards, a detail page, and an About / Access page.
+StoryCast is a three-page accessible storytelling microsite for the Advanced Front-End Web Development assignment. Dream in Progress is the concept behind the project: sharing a sample story about a young entrepreneur in a clear, accessible format.
+Content note: Amina and her story are fictional examples created for this prototype. They are not a real person or a real interview.
 
-## Pages
-- `index.html` — home and story library
-- `story/amina.html` — sample story detail page with a written transcript
-- `about.html` — mission and accessibility information
-
-## Technology
+Pages
+- index.html — Home page introducing StoryCast and highlighting stories.
+- story/amina.html — Sample story detail page with written story content and a transcript.
+- about.html — About / Access page explaining the project mission and accessibility features.
+All pages use shared navigation so visitors can move between the main sections.
+Research and Planning
+- Research document: docs/research-document.pdf
+- Sitemap source file: docs/sitemap.md
+- Figma wireframes and high-fidelity mockups: Open the StoryCast designs
+The sitemap file listed above is Markdown (.md), not a PDF diagram. If the assignment requires a sitemap diagram as a PDF, export or create the diagram and add the resulting PDF to the repository.
+Technology
 - Semantic HTML5
-- Sass (`sass/main.scss`) with partials for colors, typography, and spacing
-- Compiled CSS (`css/style.css`)
-- CSS Grid, Flexbox, media queries, and a container query
-- No CSS or JavaScript framework
-
-## Run locally
-1. Download or clone this repository.
-2. Open the folder in VS Code.
-3. Open `index.html` in a browser, or use the Live Server extension.
-4. If you edit Sass, install Sass and compile from the project root:
-
-```bash
-sass sass/main.scss css/style.css --watch
-```
-
-## Accessibility checklist
-- [x] Semantic landmarks and heading hierarchy
-- [x] Skip link to main content
+- Sass (sass/main.scss) with partials for colors, typography, and spacing
+- Compiled CSS (css/style.css)
+- CSS Grid and Flexbox
+- Media queries and a container query
+- No CSS or JavaScript frameworks
+Run Locally
+1. Clone or download the public GitHub repository.
+2. Open the dream-in-progress folder in VS Code.
+3. Open index.html in a browser, or use the Live Server extension.
+4. If you edit the Sass files, install Sass and run this command from the project root:
+   sass sass/main.scss css/style.css --watch
+Accessibility Checklist
+- [x] Semantic HTML landmarks and a logical heading hierarchy
+- [x] Skip link to the main content
 - [x] Visible keyboard focus states
-- [x] Descriptive alt text for informative images
-- [x] Written transcript for the sample interview
+- [x] Descriptive alternative text for informative images
+- [x] Written content/transcript for the fictional sample story
 - [x] Responsive layout for desktop, tablet, and mobile
 - [x] Reduced-motion preference supported
 - [x] Container query used for the media panel
 - [ ] Test all final color combinations with a WCAG contrast checker
-- [ ] Test every page with keyboard-only navigation and a screen reader
-- [ ] Add captions (`<track kind="captions">`) if real video is added
-- [ ] Replace fictional sample content with researched/consented stories if required
-
-## Important content note
-Amina and the interview transcript are fictional examples made for the prototype. Do not present them as a real interview. Replace sample content with a real interview only after obtaining permission, or keep the fictional content clearly labelled.
-
-## Project structure
-```text
+- [ ] Test every page using keyboard-only navigation
+- [ ] Test screen-reader behavior
+- [ ] Run an HTML validator and Lighthouse accessibility audit
+Media note: The current prototype does not include a recorded video or real interview. Therefore, it does not claim to provide video captions. If audio or video is added later, provide an accurate transcript and captions where appropriate, including a <track kind="captions"> element for video when needed.
+The checked items describe features intended to be implemented in the project. Verify each item against the actual code before relying on it as a completed test.
+Design Rationale
+The cream background, dark green typography, and lime accents create a warm editorial style. Large headings and story imagery help visitors scan the content. The story page emphasizes readable written content and a transcript so that understanding the example does not depend on audio or video.
+Project Structure
 dream-in-progress/
 ├── index.html
 ├── about.html
@@ -59,10 +60,6 @@ dream-in-progress/
 │   ├── research-document.pdf
 │   └── sitemap.md
 └── README.md
-```
 
-## Design rationale
-The cream background, dark green typography, and lime accents create a warm, editorial identity. Large headings and story photography help visitors scan the content. The story detail page prioritizes readable text and a transcript rather than relying on media alone.
-
-## figma link
-https://www.figma.com/design/nE6KJ6mURLlW4a2NmgE9bu/storycast--website--mockups?node-id=0-1&t=0y185Mazak3hFVGW-1
+# figma link
+https://www.figma.com/design/nE6KJ6mURLlW4a2NmgE9bu/storycast--website--mockups?node-id=0-1&p=f&t=F8ilEXS0KWLgQPJ7-0
